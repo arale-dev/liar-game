@@ -1,0 +1,27 @@
+.container {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  flex: 1;
+  align-self: stretch;
+
+  font-size: 0.8rem;
+  text-align: center;
+
+  border-width: 0.1rem;
+  border-style: solid;
+
+  border-color: #555b6e;
+  background-color: white;
+  color: #555b6e;
+
+  &.selected {
+    border-color: #555b6e;
+    background-color: #555b6e;
+    color: white;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

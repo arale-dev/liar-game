@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #bee3dbff;
+  border-color: #555b6e;
+  border-width: 0.5rem;
+  border-style: solid;
+  flex: 1;
+  align-self: stretch;
+  padding: 1rem;
+  color: #555b6e;
+}
